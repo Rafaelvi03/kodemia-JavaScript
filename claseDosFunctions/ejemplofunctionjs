@@ -1,0 +1,8 @@
+/*Crear una funcion que nos retorne true si un numero es par y false si no lo es*/
+
+const isEven = (numbertoEval) => numbertoEval % 2 == 0;
+let result1 = isEven(7);
+let result2 = isEven(4);
+
+console.log(result1)
+console.log(result2)
